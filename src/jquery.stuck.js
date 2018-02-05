@@ -245,6 +245,7 @@
           i = this.elements.length;
           while (i--) {
             this.elements[i].spacer.remove();
+            this.elements[i].node[0].removeAttribute("style");
           }
           this.window.unbind('scroll');
           this.window.unbind('resize');

@@ -1,0 +1,21 @@
+{
+    "name": "jquery-stuck",
+	"license": "MIT",
+    "version": "1.0.3-ACTICO-PATCH-1",
+    "main": "src/jquery.stuck.js",
+    "ignore": [
+        "gh-pages",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+		"docs.html",
+		"index.html",
+		"stuck.jquery.json",
+		"jquery.stuck.coffee",
+        "bower.json",
+        "README.md"
+    ],
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
